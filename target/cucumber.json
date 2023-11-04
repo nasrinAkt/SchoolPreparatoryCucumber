@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify examinations page display",
+        "description": "",
+        "id": ";verify-examinations-page-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3206368500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open application url",
+            "match": {
+              "location": "stepClass.open_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2190391100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "mouse hover on Academics link",
+            "match": {
+              "location": "stepClass.mouse_hover_on_Academics_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2116175400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click examinations link",
+            "match": {
+              "location": "stepClass.click_examinations_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2190156100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify examinations page display",
+            "match": {
+              "location": "stepClass.verify_examinations_page_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "link.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can login",
+        "description": "",
+        "id": "this-is-a-feature-for-login-functionality;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1802895100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open application url",
+            "match": {
+              "location": "stepClass.open_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93821200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click login button",
+            "match": {
+              "location": "stepClass.click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1145303300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter email address",
+            "match": {
+              "location": "stepClass.enter_email_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1110307500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter password",
+            "match": {
+              "location": "stepClass.enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3198684800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click sign in",
+            "match": {
+              "location": "stepClass.click_sign_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for login functionality",
+    "description": "",
+    "id": "this-is-a-feature-for-login-functionality",
+    "keyword": "Feature",
+    "uri": "prelogin.feature"
+  }
+]
